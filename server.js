@@ -12,12 +12,12 @@ app.use("/",useRouter);
 
 // ========= create table in database ================//
 
-// const User = require('./models/users.js');
+// const User = require('./database/models/users.js');
 // User.sync(); creates the table if it doesn't exist
 // User.sync({ force: true }); This creates the table, dropping it first if it already existed  
 // User.sync({ alter: true })
 // User.drop();  for drop table
-require('./models/index.js');
+require('./database/models/index.js');
 
 // ==================== end ==========================// 
 
