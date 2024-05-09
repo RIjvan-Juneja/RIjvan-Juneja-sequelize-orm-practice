@@ -24,6 +24,8 @@
     },
   );
 
+  return Details;
+
     // `sequelize.define` also returns the model
     // console.log(User === sequelize.models.User); // true
  }
